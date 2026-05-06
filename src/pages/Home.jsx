@@ -46,6 +46,19 @@ const Home = () => {
           <p className="text-gray-500 text-sm">Hilangkan redundansi data untuk performa aplikasi yang lebih cepat dan efisien.</p>
         </div>
       </div>
+      <div className="mt-12 bg-blue-50 p-6 rounded-2xl max-w-3xl text-center">
+  <h3 className="font-bold text-lg mb-3">🤔 Coba Pikirkan!</h3>
+  
+  <p>
+    Kalau satu pelanggan membeli 5 produk dan ditulis dalam satu kolom, 
+    apa masalah yang akan terjadi?
+  </p>
+
+  <textarea
+    placeholder="Tulis pendapatmu di sini..."
+    className="w-full mt-4 p-3 rounded border"
+  ></textarea>
+</div>
     </div>
   );
 };
